@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+}
+
+.container{
+    border: solid 1px White;
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+.box-1{
+    border: solid 1px yellow;
+    height: 100px;
+}
+
+.box-2{
+    border: solid 1px green;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxDoisFilho1{
+    border: solid 1px purple;
+    flex-grow: 1;
+    height: 100px;
+}
+
+.boxDoisFilho2{
+    border: solid 1px blue;
+    flex-grow: 3;
+}
+
+.box-3{
+    border: solid 1px rgb(108, 204, 108);
+    display: flex;
+}
+
+.boxTresFilho1{
+    border: solid 1px rgb(126, 124, 124);
+    flex-grow: 1;
+    height: 250px;
+}
+
+.boxTresFilho2{
+    border: solid 1px rgb(91, 209, 230);
+    flex-grow: 1;
+}
+
+.boxTresFilho3{
+    border: solid 1px rgb(241, 183, 21);
+    flex-grow: 1;
+}
+
+.boxTresFilho4{
+    border: solid 1px rgb(255, 9, 9);
+    flex-grow: 1;
+}
+
+.box-4{
+    border: solid 1px rgb(255, 196, 2);
+    justify-content: center;
+    display: flex;
+}
+
+.boxQuatroFilho1{
+    border: solid 1px red;
+    border-top: 0;
+    border-bottom: 0;
+    height: 120px;
+    flex-basis: 50%;
+}
